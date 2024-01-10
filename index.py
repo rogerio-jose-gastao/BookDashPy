@@ -2,4 +2,4 @@
 
 import streamlit as st
 
-st()
+st.write("Hello World")
