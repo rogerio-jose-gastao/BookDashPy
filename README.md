@@ -1,3 +1,9 @@
 # BookDashPy
 
-A book dashboard build with python and streamlit
+A top best-seller books in Amazon dashboard
+
+##Libraries used
+
+- Streamlit
+- Plotly
+- Pandas
