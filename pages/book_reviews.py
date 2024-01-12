@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+# Tornar o display dos dados largos
 st.set_page_config(layout="wide")
 
 df_reviews = pd.read_csv("datasets/customer reviews.csv")
@@ -14,4 +15,5 @@ df_reviews_f = df_reviews[df_reviews["book name"] == book]
 
 df_book
 df_reviews_f
+
 
