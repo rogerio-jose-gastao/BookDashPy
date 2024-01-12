@@ -13,7 +13,13 @@ book = st.sidebar.selectbox("Book", books)
 df_book = df_top100_books[df_top100_books["book title"] == book]
 df_reviews_f = df_reviews[df_reviews["book name"] == book]
 
-df_book
-df_reviews_f
+book_title = df_book["book title"][0]
+book_genre = df_book["genre"][0]
+book_price = df_book["book price"][0]
+book_rating = df_book["rating"][0]
+book_year = df_book["year of publication"][0]
+
+st.title(book_title)
+st.subheader(book_genre)
 
 
